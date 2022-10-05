@@ -6,6 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #lista{
+            background-color: red;
+        };
+        .conBorde{
+            border-color: blue
+            border: 10px solid;
+        };
+        h1{
+            background-color: blueviolet;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,14 +32,16 @@
     </header>
     <div class="container">
         <aside>
-            <ol>
+            <ol id="lista">
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ol>
         </aside>    
         <section>
-            <img src="./images/playa.jpg" alt="">
+            <h1 id="h1" class="conBorde" >Mi pagina web</h1>
+            <img id="imagen 1" class="conBorde" src="./images/playa.jpg" alt="">
+            <img id="imagen 1" class="conBorde" style="margin-left: 50px;" src="./images/playa.jpg" alt="">
         </section>
     </div>
     <footer>
